@@ -42,7 +42,7 @@ function Validity(guess) {
     alert(`Guess between 1 to 100 `)
     userInput.value = ''
   } else {
-    if (numGuess === 10) {
+    if (numGuess === 11) {
       alert(`Game over try again , random number is ${value}`)
       endGame()
     } else {
